@@ -52,13 +52,7 @@ class QuickStart {
     }
 
     public static void printScheduler(){
-        System.out.println("Engineering");
-        System.out.println("Period 1: " + EnginPeriod1);
-        System.out.println("Period 2: " + EnginPeriod2);
-        System.out.println("Period 3: " + AOEDPREP);
-        System.out.println("Period 4: " + EnginPeriod4);
-        System.out.println("Period 5: " + EnginPeriod5);
-        System.out.println("Period 6: " + EnginPeriod6);
+        printEngineering(); 
 
         System.out.println("\nEnglish");
         System.out.println("Period 1: " + EngliPeriod1);
@@ -94,6 +88,16 @@ class QuickStart {
         System.out.println("Period 5: " + MathePeriod5);
         System.out.println("Period 6: " + MathePeriod6);
 
+    }
+
+    public static void printEngineering(){
+        System.out.println("Engineering");
+        System.out.println("Period 1: " + EnginPeriod1);
+        System.out.println("Period 2: " + EnginPeriod2);
+        System.out.println("Period 3: " + AOEDPREP);
+        System.out.println("Period 4: " + EnginPeriod4);
+        System.out.println("Period 5: " + EnginPeriod5);
+        System.out.println("Period 6: " + EnginPeriod6);
     }
 
 }
