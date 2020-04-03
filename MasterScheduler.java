@@ -34,9 +34,9 @@ class QuickStart {
     public static String ScienPeriod6 = "???";
     
     public static String MathePeriod1 = "???";
-    public static String MathePeriod2 = "Physics";
-    public static String MathePeriod4 = "Science2-2";
-    public static String MathePeriod5 = "Science2-1";
+    public static String MathePeriod2 = "???";
+    public static String MathePeriod4 = "Soph1/Junior";
+    public static String MathePeriod5 = "Soph1";
     public static String MathePeriod6 = "???";
     
     public static String ElectivePeriod3 = "???";
@@ -52,7 +52,13 @@ class QuickStart {
     }
 
     public static void printScheduler(){
-        printEngineering(); 
+        System.out.println("Engineering");
+        System.out.println("Period 1: " + EnginPeriod1);
+        System.out.println("Period 2: " + EnginPeriod2);
+        System.out.println("Period 3: " + AOEDPREP);
+        System.out.println("Period 4: " + EnginPeriod4);
+        System.out.println("Period 5: " + EnginPeriod5);
+        System.out.println("Period 6: " + EnginPeriod6);
 
         System.out.println("\nEnglish");
         System.out.println("Period 1: " + EngliPeriod1);
@@ -88,16 +94,6 @@ class QuickStart {
         System.out.println("Period 5: " + MathePeriod5);
         System.out.println("Period 6: " + MathePeriod6);
 
-    }
-
-    public static void printEngineering(){
-        System.out.println("Engineering");
-        System.out.println("Period 1: " + EnginPeriod1);
-        System.out.println("Period 2: " + EnginPeriod2);
-        System.out.println("Period 3: " + AOEDPREP);
-        System.out.println("Period 4: " + EnginPeriod4);
-        System.out.println("Period 5: " + EnginPeriod5);
-        System.out.println("Period 6: " + EnginPeriod6);
     }
 
 }
