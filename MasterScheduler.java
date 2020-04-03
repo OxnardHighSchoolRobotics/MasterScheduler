@@ -70,7 +70,14 @@ class QuickStart {
         System.out.println("Period 5: " + ScienPeriod5);
         System.out.println("Period 6: " + ScienPeriod6);
 
-        
+         System.out.println("\nMath");
+        System.out.println("Period 1: " + MathPeriod1);
+        System.out.println("Period 2: " + MathPeriod2);
+        System.out.println("Period 3: " + AOEDPREP);
+        System.out.println("Period 4: " + MathPeriod4);
+        System.out.println("Period 5: " + MathPeriod5);
+        System.out.println("Period 6: " + MathPeriod6);
+
     }
 
 }
