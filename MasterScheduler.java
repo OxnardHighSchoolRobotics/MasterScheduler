@@ -16,6 +16,18 @@ class QuickStart {
     public static String HistoPeriod4 = "???";
     public static String HistoPeriod5 = "History2-2";
     public static String HistoPeriod6 = "History2-1";
+    
+    public static String ScienPeriod1 = "???";
+    public static String ScienPeriod2 = "Physics";
+    public static String ScienPeriod4 = "Science2-2";
+    public static String ScienPeriod5 = "Science2-1";
+    public static String ScienPeriod6 = "???";
+    
+    public static String MathePeriod1 = "???";
+    public static String MathePeriod2 = "Physics";
+    public static String MathePeriod4 = "Science2-2";
+    public static String MathePeriod5 = "Science2-1";
+    public static String MathePeriod6 = "???";
 
     public static String AOEDPREP = "AOEDPREP";
 
@@ -51,12 +63,12 @@ class QuickStart {
 
         
         System.out.println("\nScience");
-        System.out.println("Period 1: " + HistoPeriod1);
-        System.out.println("Period 2: " + HistoPeriod2);
+        System.out.println("Period 1: " + ScienPeriod1);
+        System.out.println("Period 2: " + ScienPeriod2);
         System.out.println("Period 3: " + AOEDPREP);
-        System.out.println("Period 4: " + HistoPeriod4);
-        System.out.println("Period 5: " + HistoPeriod5);
-        System.out.println("Period 6: " + HistoPeriod6);
+        System.out.println("Period 4: " + ScienPeriod4);
+        System.out.println("Period 5: " + ScienPeriod5);
+        System.out.println("Period 6: " + ScienPeriod6);
 
         
     }
