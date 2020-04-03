@@ -1,10 +1,10 @@
 /*
-Soph1	Soph2	Junior			
-Soph2	Soph1		Junior		
-PREP	PREP	PREP	PREP	Soph2/Junior	Soph1
-Senior	Junior		Soph2	Soph1	
-Junior	Senior	Soph2	Soph1		
-6th class	6th class	Soph1			Soph2/Junior
+Soph1	     Soph2	    Junior			
+Soph2	     Soph1		         Junior		
+PREP	     PREP	     PREP	 PREP	Soph2/Junior   Soph1
+Senior	     Junior		        Soph2	Soph1	
+Junior	     Senior	    Soph2	Soph1		
+6th class	6th class	Soph1			         Soph2/Junior
 Gerckens	Hanreader	Thomas	Science	Math	PE/Elective
 */
 
