@@ -28,6 +28,12 @@ class QuickStart {
     public static String MathePeriod4 = "Science2-2";
     public static String MathePeriod5 = "Science2-1";
     public static String MathePeriod6 = "???";
+    
+    public static String ElectivePeriod3 = "???";
+    public static String MathePeriod2 = "Physics";
+    public static String MathePeriod4 = "Science2-2";
+    public static String MathePeriod5 = "Science2-1";
+    public static String MathePeriod6 = "???";
 
     public static String AOEDPREP = "AOEDPREP";
 
