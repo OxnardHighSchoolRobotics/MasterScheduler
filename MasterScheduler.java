@@ -57,7 +57,7 @@ class QuickStart {
         printHistory();
         printScience();
         printMath();
-        }
+    }
 
     public static void printEngineering(){
         System.out.println("Engineering");
