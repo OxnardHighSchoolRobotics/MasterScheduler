@@ -88,13 +88,15 @@ class QuickStart {
         System.out.println("Period 5: " + MathePeriod5);
         System.out.println("Period 6: " + MathePeriod6);
 
-    }System.out.println("\nElective");
-    System.out.println("Period 1: " + ElectPeriod1);
-    System.out.println("Period 2: " + ElectPeriod2);
-    System.out.println("Period 3: " + AOEDPREP);
-    System.out.println("Period 4: " + ElectPeriod4);
-    System.out.println("Period 5: " + ElectPeriod5);
-    System.out.println("Period 6: " + ElectPeriod6);
+        System.out.println("\nElective");
+        System.out.println("Period 1: " + ElectPeriod1);
+        System.out.println("Period 2: " + ElectPeriod2);
+        System.out.println("Period 3: " + AOEDPREP);
+        System.out.println("Period 4: " + ElectPeriod4);
+        System.out.println("Period 5: " + ElectPeriod5);
+        System.out.println("Period 6: " + ElectPeriod6);
+
+    }
 
     public static void printEngineering(){
         System.out.println("Engineering");
