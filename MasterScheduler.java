@@ -5,7 +5,7 @@ PREP	     PREP	     PREP	 PREP	Soph2/Junior   Soph1
 Senior	     Junior		        Soph2	Soph1	
 Junior	     Senior	    Soph2	Soph1		
 6th class	6th class	Soph1			         Soph2/Junior
-Gerckens	Hanreader	Thomas	Science	Math	PE/Elective
+Gerckens	Hanreader	Thomas	Science	Mathe	PE/Elective
 */
 
 class QuickStart {
@@ -39,11 +39,12 @@ class QuickStart {
     public static String MathePeriod5 = "Science2-1";
     public static String MathePeriod6 = "???";
     
-    public static String ElectivePeriod3 = "???";
-    public static String MathePeriod2 = "Physics";
-    public static String MathePeriod4 = "Science2-2";
-    public static String MathePeriod5 = "Science2-1";
-    public static String MathePeriod6 = "???";
+    public static String ElectivePeriod1 = "???";
+    public static String ElectivePeriod2 = "???";
+    public static String ElectivePeriod3 = "Elective1";
+    public static String ElectivePeriod4 = "???";
+    public static String ElectivePeriod5 = "???";
+    public static String ElectivePeriod6 = "Elective2";
 
     public static String AOEDPREP = "AOEDPREP";
 
