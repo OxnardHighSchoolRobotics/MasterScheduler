@@ -58,6 +58,7 @@ class QuickStart {
         printHistory();
         printScience();
         printMath();
+        PrintScheduler.Print();
     }
 
     public static void printEngineering(){
