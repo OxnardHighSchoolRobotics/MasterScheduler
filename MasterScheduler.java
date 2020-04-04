@@ -37,7 +37,7 @@ class QuickStart {
     public static String MathePeriod2 = "???";
     public static String MathePeriod3 = "Soph2/Junior";
     public static String MathePeriod4 = "Soph1";
-    public static String MathePeriod5 = "Soph2/Junior";
+    public static String MathePeriod5 = "???";
     public static String MathePeriod6 = "???";
     
     public static String ElectPeriod1 = "???";
