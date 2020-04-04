@@ -5,7 +5,7 @@ PREP	     PREP	     PREP	 PREP	Soph2/Junior   Soph1
 Senior	     Junior		        Soph2	Soph1	
 Junior	     Senior	    Soph2	Soph1		
 6th class	6th class	Soph1			         Soph2/Junior
-Gerckens	Hanreader	Thomas	Science	Math	PE/Elective
+Gerckens	Hanreader	Thomas	Science	Mathe	PE/Elective
 */
 
 class QuickStart {
@@ -39,11 +39,12 @@ class QuickStart {
     public static String MathePeriod5 = "Soph1";
     public static String MathePeriod6 = "???";
     
-    public static String ElectivePeriod3 = "???";
-    public static String MathePeriod2 = "Physics";
-    public static String MathePeriod4 = "Science2-2";
-    public static String MathePeriod5 = "Science2-1";
-    public static String MathePeriod6 = "???";
+    public static String ElectivePeriod1 = "???";
+    public static String ElectivePeriod2 = "???";
+    public static String ElectivePeriod3 = "Elective1";
+    public static String ElectivePeriod4 = "???";
+    public static String ElectivePeriod5 = "???";
+    public static String ElectivePeriod6 = "Elective2";
 
     public static String AOEDPREP = "AOEDPREP";
 
@@ -52,6 +53,14 @@ class QuickStart {
     }
 
     public static void printScheduler(){
+        printEngineering(); 
+        printEnglish();
+        printHistory();
+        printScience();
+        printMath();
+    }
+
+    public static void printEngineering(){
         System.out.println("Engineering");
         System.out.println("Period 1: " + EnginPeriod1);
         System.out.println("Period 2: " + EnginPeriod2);
@@ -59,7 +68,8 @@ class QuickStart {
         System.out.println("Period 4: " + EnginPeriod4);
         System.out.println("Period 5: " + EnginPeriod5);
         System.out.println("Period 6: " + EnginPeriod6);
-
+    }
+    public static void printEnglish(){
         System.out.println("\nEnglish");
         System.out.println("Period 1: " + EngliPeriod1);
         System.out.println("Period 2: " + EngliPeriod2);
@@ -67,8 +77,8 @@ class QuickStart {
         System.out.println("Period 4: " + EngliPeriod4);
         System.out.println("Period 5: " + EngliPeriod5);
         System.out.println("Period 6: " + EngliPeriod6);
-
-        
+    }
+    public static void printHistory(){
         System.out.println("\nHistory");
         System.out.println("Period 1: " + HistoPeriod1);
         System.out.println("Period 2: " + HistoPeriod2);
@@ -76,8 +86,8 @@ class QuickStart {
         System.out.println("Period 4: " + HistoPeriod4);
         System.out.println("Period 5: " + HistoPeriod5);
         System.out.println("Period 6: " + HistoPeriod6);
-
-        
+    }
+    public static void printScience(){
         System.out.println("\nScience");
         System.out.println("Period 1: " + ScienPeriod1);
         System.out.println("Period 2: " + ScienPeriod2);
@@ -85,8 +95,9 @@ class QuickStart {
         System.out.println("Period 4: " + ScienPeriod4);
         System.out.println("Period 5: " + ScienPeriod5);
         System.out.println("Period 6: " + ScienPeriod6);
-
-         System.out.println("\nMath");
+    }
+    public static void printMath(){
+        System.out.println("\nMath");
         System.out.println("Period 1: " + MathePeriod1);
         System.out.println("Period 2: " + MathePeriod2);
         System.out.println("Period 3: " + AOEDPREP);
