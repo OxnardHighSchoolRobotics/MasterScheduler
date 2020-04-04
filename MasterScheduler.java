@@ -34,9 +34,9 @@ class QuickStart {
     public static String ScienPeriod6 = "???";
     
     public static String MathePeriod1 = "???";
-    public static String MathePeriod2 = "Physics";
-    public static String MathePeriod4 = "Science2-2";
-    public static String MathePeriod5 = "Science2-1";
+    public static String MathePeriod2 = "???";
+    public static String MathePeriod4 = "Soph1/Junior";
+    public static String MathePeriod5 = "Soph1";
     public static String MathePeriod6 = "???";
     
     public static String ElectPeriod1 = "???";
@@ -58,7 +58,7 @@ class QuickStart {
         printHistory();
         printScience();
         printMath();
-        }
+    }
 
     public static void printEngineering(){
         System.out.println("Engineering");
@@ -104,6 +104,7 @@ class QuickStart {
         System.out.println("Period 4: " + MathePeriod4);
         System.out.println("Period 5: " + MathePeriod5);
         System.out.println("Period 6: " + MathePeriod6);
+
     }
     public static void printElectives(){
          System.out.println("\nElectives");
