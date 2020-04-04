@@ -35,9 +35,9 @@ class QuickStart {
     
     public static String MathePeriod1 = "???";
     public static String MathePeriod2 = "???";
-    public static String MathePeriod3 = "Soph2/Junior"
+    public static String MathePeriod3 = "Soph2/Junior";
     public static String MathePeriod4 = "Soph1";
-    public static String MathePeriod5 = "Soph2/Junior";
+    public static String MathePeriod5 = "???";
     public static String MathePeriod6 = "???";
     
     public static String ElectPeriod1 = "???";
@@ -50,7 +50,12 @@ class QuickStart {
     public static String AOEDPREP = "AOEDPREP";
 
     public static void main(String[] args) {
-        printScheduler();
+        PrintScheduler.printEngineering();
+        PrintScheduler.printEnglish();
+        PrintScheduler.printHistory();
+        PrintScheduler.printMath();
+        PrintScheduler.printScience();
+        PrintScheduler.printElectives();
     }
 
 }
