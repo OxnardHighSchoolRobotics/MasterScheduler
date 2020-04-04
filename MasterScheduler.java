@@ -108,7 +108,7 @@ class QuickStart {
 
     }
     public static void printElectives(){
-         System.out.println("\nElectives");
+        System.out.println("\nElectives");
         System.out.println("Period 1: " + ElectPeriod1);
         System.out.println("Period 2: " + ElectPeriod2);
         System.out.println("Period 3: " + AOEDPREP);
