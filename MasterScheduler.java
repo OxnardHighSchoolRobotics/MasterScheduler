@@ -40,12 +40,12 @@ class QuickStart {
     public static String MathePeriod5 = "Soph2/Junior";
     public static String MathePeriod6 = "???";
     
-    public static String ElectivePeriod1 = "???";
-    public static String ElectivePeriod2 = "???";
-    public static String ElectivePeriod3 = "Elective1";
-    public static String ElectivePeriod4 = "???";
-    public static String ElectivePeriod5 = "???";
-    public static String ElectivePeriod6 = "Elective2";
+    public static String ElectPeriod1 = "???";
+    public static String ElectPeriod2 = "???";
+    public static String ElectPeriod3 = "Elective1";
+    public static String ElectPeriod4 = "???";
+    public static String ElectPeriod5 = "???";
+    public static String ElectPeriod6 = "Elective2";
 
     public static String AOEDPREP = "AOEDPREP";
 
@@ -107,5 +107,13 @@ class QuickStart {
         System.out.println("Period 6: " + MathePeriod6);
 
     }
-
+    public static void printElectives(){
+         System.out.println("\nElectives");
+        System.out.println("Period 1: " + ElectPeriod1);
+        System.out.println("Period 2: " + ElectPeriod2);
+        System.out.println("Period 3: " + AOEDPREP);
+        System.out.println("Period 4: " + ElectPeriod4);
+        System.out.println("Period 5: " + ElectPeriod5);
+        System.out.println("Period 6: " + ElectPeriod6);
+    }
 }
